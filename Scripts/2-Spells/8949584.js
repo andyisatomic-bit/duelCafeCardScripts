@@ -12,7 +12,6 @@ const halfLp = "Pay half your LP";
       ]
     },
     "trigger_range":[20,24],
-    "msg":"Resolve $name's effect?",
     "options":[
       {
         "label":"$halfLp ONLY",
