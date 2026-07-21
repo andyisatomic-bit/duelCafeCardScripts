@@ -14,20 +14,8 @@ const halfLp = "Pay half your LP";
     "trigger_range":[20,24],
     "options":[
       {
-        "label":"$halfLp ONLY",
-        "script":{
-          is_cost;
-          div_lp=2;
-        }
-      },
-      {
-        "label":"$halfLp, then Special Summon 1 Level 4 or lower \"$archetype\" monster from your Deck",
-        "script":{
-          is_cost;
-          div_lp=2;
-          is_eff;
-          search(0,255,[0],"IS_MONSTER && NAME == %$archetype% && LVL <= 4");
-        }
+        "label=$halfLp ONLY¬is_cost¬div_lp=2",
+        "label=$halfLp, then Special Summon 1 Level 4 or lower \"$archetype\" monster from your Deck¬is_cost¬div_lp=2¬is_eff¬search(0,255,[0],\"IS_MONSTER && NAME == %$archetype% && LVL <= 4\")"
       }
     ]
   }
