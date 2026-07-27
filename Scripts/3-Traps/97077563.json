@@ -1,7 +1,7 @@
 "commands":[
     {
          "trigger_range":[9],
-         "msg":"Trigger $name's effect?",
+         "msg":"Resolve $name's effect?",
          "options":[
              "label=Target 1 monster in GY; Special Summon that target in Attack Position.¬search(0,255,[2],\"IS_MONSTER\")"
             ]
