@@ -3,7 +3,7 @@
          "trigger_range":[10,14],
          "msg":"Resolve $name's effect?",
          "options":[
-             "label=Add 1 Level 6 \"Zombie\" monster or 1 \"Call of the Forgotten\" from Deck to Hand if you control no Monsters.¬search(0,255,[0],\"TYPES == %Zombie% && LVL ==6 || NAME == %Call of the Forgotten%\")"
+             "label=Add 1 Level 6 \"Zombie\" monster or 1 \"Call of the Forgotten\" from Deck to Hand if you control no Monsters.¬search(0,255,[0],\"TYPES == %Zombie% && LVL ==6 || NAME == Call of the Forgotten\")"
             ]
       }
 ]
