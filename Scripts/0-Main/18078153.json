@@ -1,7 +1,7 @@
 "commands":[
     {
          "trigger_range":[2],
-         "msg" "Trigger $name's effect?",
+         "msg" "Resolve $name's graveyard effect?",
          "options":[
              "label= Target one \"Call of the Haunted\" in your GY, set it.¬search(0,255,[2],\"NAME == Call of the Haunted\")"
           ]
