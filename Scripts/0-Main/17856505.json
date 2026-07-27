@@ -1,9 +1,0 @@
-"commands":[
-    {
-         "trigger_range":[10,14],
-         "msg":"Trigger $name's effect?",
-         "options":[
-             "label=Add 1 \"Call of the Haunted\" or 1 card that mentions it from Deck to Hand..¬search(0,255,[0],\"NAME == Call of the Haunted || (DESC == %Call of the Haunted%)\")"
-            ]
-      }
-]
