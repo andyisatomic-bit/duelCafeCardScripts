@@ -1,7 +1,6 @@
 "commands":[
     {
          "trigger":2,
-         "msg":"Resolve $name's effect?",
          "options":[
              "label=Add 1 \"Call of the Haunted\" or 1 Spell/Trap that mentions it from your Deck to your hand.¬search(0,255,[0],\"NAME == Call of the Haunted || (IS_SPELL_OR_TRAP && DESC == %Call of the Haunted%)\")"
          ]
