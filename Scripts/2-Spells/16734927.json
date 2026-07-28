@@ -8,9 +8,9 @@
                 }
             ]
         },
-        "trigger_range":[10,14],
+        "trigger_range":[20,24],
         "options":[
-            "label=Add 1 Level 6 \"Zombie\" monster or 1 \"Call of the Forgotten\" from Deck to Hand if you control no Monsters.¬search(0,255,[0],\"TYPES == %Zombie% && LVL ==6 || NAME == Call of the Forgotten\")"
+            "label=Add 1 Level 6 Zombie monster or 1 \"Call of the Forgotten\" from your Deck to your hand¬search(0,255,[0],\"(IS_MONSTER && TYPES == zombie && LVL == 6) || NAME == Call of the Forgotten\")"
         ]
     }
 ]
