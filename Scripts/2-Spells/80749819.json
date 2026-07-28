@@ -1,9 +1,9 @@
 "commands":[
     {
-         "trigger_range":[9],
+         "trigger":9,
          "msg":"Resolve $name's activation effect?",
          "options":[
-             "label=Set up to 3 \"Call of the Haunted\" from Deck and/or GY.¬search(0,255,[0,2],\"NAME == %Call of the Haunted%\")"
+             "label=Set up to 3 \"Call of the Haunted\" from your Deck and/or GY.¬search(0,255,[0,2],\"NAME == %Call of the Haunted%\")"
             ]
       }
 ]
